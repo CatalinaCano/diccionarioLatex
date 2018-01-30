@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.25)  29 JAN 2018 16:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.25)  30 JAN 2018 08:05
 entering extended mode
 **./dictionary.tex
 (dictionary.tex
@@ -1249,9 +1249,9 @@ esource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
 File: fondo.pdf Graphic file (type pdf)
 <use fondo.pdf>
-Package pdftex.def Info: fondo.pdf  used on input line 151. on input line 151.
+Package pdftex.def Info: fondo.pdf  used on input line 163. on input line 163.
 Package pdftex.def Info: Requested size: 614.31223pt x 794.99231pt on input lin
-e 151.
+e 163.
  [2]
 File: fondo.pdf Graphic file (type pdf)
 <use fondo.pdf>
@@ -1555,7 +1555,7 @@ e 291.
 Here is how much of TeX's memory you used:
  16633 strings out of 493312
  308562 string characters out of 3138893
- 397653 words of memory out of 3000000
+ 397652 words of memory out of 3000000
  19715 multiletter control sequences out of 15000+200000
  24152 words of font info for 97 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1566,7 +1566,7 @@ m Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
 e1/urw/helvetic/uhvro8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palati
 no/uplr8a.pfb>
-Output written on dictionary.pdf (7 pages, 130020 bytes).
+Output written on dictionary.pdf (7 pages, 130044 bytes).
 PDF statistics:
  75 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
