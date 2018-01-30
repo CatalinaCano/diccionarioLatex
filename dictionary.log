@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.25)  29 JAN 2018 14:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.25)  29 JAN 2018 16:12
 entering extended mode
 **./dictionary.tex
 (dictionary.tex
@@ -448,21 +448,81 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 \tileX=\skip52
 \tileY=\skip53
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\tabularx.sty"
+Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen115
+\extrarowheight=\dimen116
+\NC@list=\toks18
+\extratabsurround=\skip54
+\backup@length=\skip55
+)
+\TX@col@width=\dimen117
+\TX@old@table=\dimen118
+\TX@old@col=\dimen119
+\TX@target=\dimen120
+\TX@delta=\dimen121
+\TX@cols=\count93
+\TX@ftn=\toks19
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\makecell\makecell.sty"
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen122
+\c@nlinenum=\count94
+\TeXr@lab=\toks20
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen123
+\lightrulewidth=\dimen124
+\cmidrulewidth=\dimen125
+\belowrulesep=\dimen126
+\belowbottomsep=\dimen127
+\aboverulesep=\dimen128
+\abovetopsep=\dimen129
+\cmidrulesep=\dimen130
+\cmidrulekern=\dimen131
+\defaultaddspace=\dimen132
+\@cmidla=\count95
+\@cmidlb=\count96
+\@aboverulesep=\dimen133
+\@belowrulesep=\dimen134
+\@thisruleclass=\count97
+\@lastruleclass=\count98
+\@thisrulewidth=\dimen135
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
+Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
+\multirow@colwidth=\skip56
+\multirow@cntb=\count99
+\multirow@dima=\skip57
+\bigstrutjot=\dimen136
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count100
+\float@exts=\toks21
+\float@box=\box26
+\@float@everytoks=\toks22
+\@floatcapt=\box27
+)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\microtype.sty"
 Package: microtype 2018/01/14 v2.7a Micro-typographical refinements (RS)
-\MT@toks=\toks18
-\MT@count=\count93
+\MT@toks=\toks23
+\MT@count=\count101
 LaTeX Info: Redefining \textls on input line 793.
-\MT@outer@kern=\dimen115
+\MT@outer@kern=\dimen137
 LaTeX Info: Redefining \textmicrotypecontext on input line 1339.
-\MT@listname@count=\count94
+\MT@listname@count=\count102
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\microtype-pdftex.def"
 File: microtype-pdftex.def 2018/01/14 v2.7a Definitions specific to pdftex (RS)
 
 LaTeX Info: Redefining \lsstyle on input line 913.
 LaTeX Info: Redefining \lslig on input line 913.
-\MT@outer@space=\skip54
+\MT@outer@space=\skip58
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
@@ -471,29 +531,27 @@ File: microtype.cfg 2018/01/14 v2.7a microtype main configuration file (RS)
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\multicol.sty"
 Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
-\c@tracingmulticols=\count95
-\mult@box=\box26
-\multicol@leftmargin=\dimen116
-\c@unbalance=\count96
-\c@collectmore=\count97
-\doublecol@number=\count98
-\multicoltolerance=\count99
-\multicolpretolerance=\count100
-\full@width=\dimen117
-\page@free=\dimen118
-\premulticols=\dimen119
-\postmulticols=\dimen120
-\multicolsep=\skip55
-\multicolbaselineskip=\skip56
-\partial@page=\box27
-\last@line=\box28
-\maxbalancingoverflow=\dimen121
-\mult@rightbox=\box29
-\mult@grightbox=\box30
-\mult@gfirstbox=\box31
-\mult@firstbox=\box32
-\@tempa=\box33
-\@tempa=\box34
+\c@tracingmulticols=\count103
+\mult@box=\box28
+\multicol@leftmargin=\dimen138
+\c@unbalance=\count104
+\c@collectmore=\count105
+\doublecol@number=\count106
+\multicoltolerance=\count107
+\multicolpretolerance=\count108
+\full@width=\dimen139
+\page@free=\dimen140
+\premulticols=\dimen141
+\postmulticols=\dimen142
+\multicolsep=\skip59
+\multicolbaselineskip=\skip60
+\partial@page=\box29
+\last@line=\box30
+\maxbalancingoverflow=\dimen143
+\mult@rightbox=\box31
+\mult@grightbox=\box32
+\mult@gfirstbox=\box33
+\mult@firstbox=\box34
 \@tempa=\box35
 \@tempa=\box36
 \@tempa=\box37
@@ -509,39 +567,406 @@ Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
 \@tempa=\box47
 \@tempa=\box48
 \@tempa=\box49
-\c@columnbadness=\count101
-\c@finalcolumnbadness=\count102
-\last@try=\dimen122
-\multicolovershoot=\dimen123
-\multicolundershoot=\dimen124
-\mult@nat@firstbox=\box50
-\colbreak@box=\box51
-\mc@col@check@num=\count103
+\@tempa=\box50
+\@tempa=\box51
+\c@columnbadness=\count109
+\c@finalcolumnbadness=\count110
+\last@try=\dimen144
+\multicolovershoot=\dimen145
+\multicolundershoot=\dimen146
+\mult@nat@firstbox=\box52
+\colbreak@box=\box53
+\mc@col@check@num=\count111
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\titlesec\titlesec.sty"
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
-\ttl@box=\box52
-\beforetitleunit=\skip57
-\aftertitleunit=\skip58
-\ttl@plus=\dimen125
-\ttl@minus=\dimen126
-\ttl@toksa=\toks19
-\titlewidth=\dimen127
-\titlewidthlast=\dimen128
-\titlewidthfirst=\dimen129
+\ttl@box=\box54
+\beforetitleunit=\skip61
+\aftertitleunit=\skip62
+\ttl@plus=\dimen147
+\ttl@minus=\dimen148
+\ttl@toksa=\toks24
+\titlewidth=\dimen149
+\titlewidthlast=\dimen150
+\titlewidthfirst=\dimen151
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
 Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
 s
-\f@nch@headwidth=\skip59
-\f@nch@O@elh=\skip60
-\f@nch@O@erh=\skip61
-\f@nch@O@olh=\skip62
-\f@nch@O@orh=\skip63
-\f@nch@O@elf=\skip64
-\f@nch@O@erf=\skip65
-\f@nch@O@olf=\skip66
-\f@nch@O@orf=\skip67
+\f@nch@headwidth=\skip63
+\f@nch@O@elh=\skip64
+\f@nch@O@erh=\skip65
+\f@nch@O@olh=\skip66
+\f@nch@O@orh=\skip67
+\f@nch@O@elf=\skip68
+\f@nch@O@erf=\skip69
+\f@nch@O@olf=\skip70
+\f@nch@O@orf=\skip71
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\frontendlayer\tikz.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgf.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\utilities\pgfrcs.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common.tex"
+\pgfutil@everybye=\toks25
+\pgfutil@tempdima=\dimen152
+\pgfutil@tempdimb=\dimen153
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common-lists.te
+x")) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-latex.def"
+\pgfutil@abb=\box55
+("C:\Program Files\MiKTeX 2.9\tex\latex\ms\everyshi.sty"
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfrcs.code.tex"
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgfcore.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\systemlayer\pgfsys.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys.code.tex"
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex"
+\pgfkeys@pathtoks=\toks26
+\pgfkeys@temptoks=\toks27
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeysfiltered.code.te
+x"
+\pgfkeys@tmptoks=\toks28
+))
+\pgf@x=\dimen154
+\pgf@y=\dimen155
+\pgf@xa=\dimen156
+\pgf@ya=\dimen157
+\pgf@xb=\dimen158
+\pgf@yb=\dimen159
+\pgf@xc=\dimen160
+\pgf@yc=\dimen161
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count112
+\c@pgf@countb=\count113
+\c@pgf@countc=\count114
+\c@pgf@countd=\count115
+\t@pgf@toka=\toks29
+\t@pgf@tokb=\toks30
+\t@pgf@tokc=\toks31
+ ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgf.cfg"
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-pdftex.def"
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-common-pdf.def
+"
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.t
+ex"
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count116
+\pgfsyssoftpath@bigbuffer@items=\count117
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsysprotocol.code.t
+ex"
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+)) ("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 709.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcore.code.tex"
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathcalc.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathutil.code.tex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathparser.code.tex"
+\pgfmath@dimen=\dimen162
+\pgfmath@count=\count118
+\pgfmath@box=\box56
+\pgfmath@toks=\toks32
+\pgfmath@stack@operand=\toks33
+\pgfmath@stack@operation=\toks34
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.basic.code.
+tex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.trigonometr
+ic.code.tex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.random.code
+.tex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.comparison.
+code.tex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.base.code.t
+ex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.round.code.
+tex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.misc.code.t
+ex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.integerarit
+hmetics.code.tex")))
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfloat.code.tex"
+\c@pgfmathroundto@lastzeros=\count119
+))
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepoints.code.tex
+"
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen163
+\pgf@picmaxx=\dimen164
+\pgf@picminy=\dimen165
+\pgf@picmaxy=\dimen166
+\pgf@pathminx=\dimen167
+\pgf@pathmaxx=\dimen168
+\pgf@pathminy=\dimen169
+\pgf@pathmaxy=\dimen170
+\pgf@xx=\dimen171
+\pgf@xy=\dimen172
+\pgf@yx=\dimen173
+\pgf@yy=\dimen174
+\pgf@zx=\dimen175
+\pgf@zy=\dimen176
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathconstruct.c
+ode.tex"
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen177
+\pgf@path@lasty=\dimen178
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathusage.code.
+tex"
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen179
+\pgf@shorten@start@additional=\dimen180
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorescopes.code.tex
+"
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box57
+\pgf@hbox=\box58
+\pgf@layerbox@main=\box59
+\pgf@picture@serial@count=\count120
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoregraphicstate.co
+de.tex"
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen181
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransformations
+.code.tex"
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen182
+\pgf@pt@y=\dimen183
+\pgf@pt@temp=\dimen184
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorequick.code.tex"
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreobjects.code.te
+x"
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathprocessing.
+code.tex"
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorearrows.code.tex
+"
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen185
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex"
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen186
+\pgf@sys@shading@range@num=\count121
+) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreimage.code.te
+x"
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreexternal.code.t
+ex"
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box60
+))
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorelayers.code.tex
+"
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransparency.co
+de.tex"
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepatterns.code.t
+ex"
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleshapes.code.tex"
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box61
+) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleplot.code.tex"
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-0-65.
+sty"
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen187
+\pgf@nodesepend=\dimen188
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-1-18.
+sty"
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+)) ("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\utilities\pgffor.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\utilities\pgfkeys.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex"))
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\math\pgfmath.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex"))
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgffor.code.tex"
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex")
+\pgffor@iter=\dimen189
+\pgffor@skip=\dimen190
+\pgffor@stack=\toks35
+\pgffor@toks=\toks36
+))
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex"
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryplothandlers.
+code.tex"
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count122
+\pgfplotmarksize=\dimen191
+)
+\tikz@lastx=\dimen192
+\tikz@lasty=\dimen193
+\tikz@lastxsaved=\dimen194
+\tikz@lastysaved=\dimen195
+\tikzleveldistance=\dimen196
+\tikzsiblingdistance=\dimen197
+\tikz@figbox=\box62
+\tikz@figbox@bg=\box63
+\tikz@tempbox=\box64
+\tikz@tempbox@bg=\box65
+\tikztreelevel=\count123
+\tikznumberofchildren=\count124
+\tikznumberofcurrentchild=\count125
+\tikz@fig@count=\count126
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmodulematrix.code.tex"
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count127
+\pgfmatrixcurrentcolumn=\count128
+\pgf@matrix@numberofcolumns=\count129
+)
+\tikz@expandcount=\count130
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
+librarytopaths.code.tex"
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+)))
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip72
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks37
+\ex@=\dimen198
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen199
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count131
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count132
+\leftroot@=\count133
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count134
+\DOTSCASE@=\count135
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box66
+\strutbox@=\box67
+\big@size=\dimen256
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count136
+\c@MaxMatrixCols=\count137
+\dotsspace@=\muskip10
+\c@parentequation=\count138
+\dspbrk@lvl=\count139
+\tag@help=\toks38
+\row@=\count140
+\column@=\count141
+\maxfields@=\count142
+\andhelp@=\toks39
+\eqnshift@=\dimen257
+\alignsep@=\dimen258
+\tagshift@=\dimen259
+\tagwidth@=\dimen260
+\totwidth@=\dimen261
+\lineht@=\dimen262
+\@envbody=\toks40
+\multlinegap=\skip73
+\multlinetaggap=\skip74
+\mathdisplay@stack=\toks41
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\enumitem\enumitem.sty"
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip75
+\enit@outerparindent=\dimen263
+\enit@toks=\toks42
+\enit@inbox=\box68
+\enitdp@description=\count143
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\varwidth.sty"
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box69
+\sift@deathcycles=\count144
+\@vwid@loff=\dimen264
+\@vwid@roff=\dimen265
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
+librarycalc.code.tex"
+File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
 )
 
 LaTeX Warning: Unused global option(s):
@@ -550,19 +975,19 @@ LaTeX Warning: Unused global option(s):
 (dictionary.aux)
 \openout1 = `dictionary.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Try loading font information for T1+phv on input line 51.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 87.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1phv.fd"
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
@@ -602,17 +1027,17 @@ File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count104
-\scratchdimen=\dimen130
-\scratchbox=\box53
-\nofMPsegments=\count105
-\nofMParguments=\count106
-\everyMPshowfont=\toks20
-\MPscratchCnt=\count107
-\MPscratchDim=\dimen131
-\MPnumerator=\count108
-\makeMPintoPDFobject=\count109
-\everyMPtoPDFconversion=\toks21
+\scratchcounter=\count145
+\scratchdimen=\dimen266
+\scratchbox=\box70
+\nofMPsegments=\count146
+\nofMParguments=\count147
+\everyMPshowfont=\toks43
+\MPscratchCnt=\count148
+\MPscratchDim=\dimen267
+\MPnumerator=\count149
+\makeMPintoPDFobject=\count150
+\everyMPtoPDFconversion=\toks44
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -655,8 +1080,8 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-\AtBeginShipoutBox=\box54
-LaTeX Info: Redefining \microtypecontext on input line 51.
+\AtBeginShipoutBox=\box71
+LaTeX Info: Redefining \microtypecontext on input line 87.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -670,109 +1095,151 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `phv' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+
+ABD: EveryShipout initializing macros
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 57.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 94.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 57.
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 63.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 94.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\mt-cmr.cfg"
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 63.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 63.
+LaTeX Font Info:    Try loading font information for U+msa on input line 106.
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--64
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\mt-msa.cfg"
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 106.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\mt-msb.cfg"
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
+\T1/phv/m/n/10 (+20) Esta sec-ción pre-senta \T1/phv/b/n/10 Nom-bre Con-ven-ció
+n \T1/phv/m/n/10 (+20) (Tabla aso-ci-ada a la con-ven-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
+[]\T1/phv/b/n/10 Movimientos: \T1/phv/m/n/10 (+20) De-scribe la fun-cional-i-da
+d de las tablas de transac-ciones,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
+\T1/phv/m/n/10 (+20) Esta sec-ción pre-senta \T1/phv/b/n/10 Nom-bre de la Tabla
+ \T1/phv/m/n/10 (+20) (Tipo de tabla (Búsqueda,
+ []
+
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 106.
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
+[]\T1/phv/b/n/10 Métricas: \T1/phv/m/n/10 (+20) De-scribe la fun-cional-i-dad d
+e la métrica den-tro del con-texto del
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
+\T1/phv/m/n/10 (+20) Esta sec-ción pre-senta \T1/phv/b/n/10 Nom-bre de la Métri
+ca \T1/phv/m/n/10 (+20) (Cu-bos en los que se en-
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 106
+\T1/phv/m/n/10 (+20) Esta sec-ción pre-senta \T1/phv/b/n/10 Nom-bre de la Métri
+ca \T1/phv/m/n/10 (+20) (Cu-bos en los que se en-
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 106
+[]\T1/phv/b/n/10 Métricas: \T1/phv/m/n/10 (+20) De-scribe la fun-cional-i-dad d
+e la métrica den-tro del con-texto del
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 106
+\T1/phv/m/n/10 (+20) Esta sec-ción pre-senta \T1/phv/b/n/10 Nom-bre de la Tabla
+ \T1/phv/m/n/10 (+20) (Tipo de tabla (Búsqueda,
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 106
+[]\T1/phv/b/n/10 Movimientos: \T1/phv/m/n/10 (+20) De-scribe la fun-cional-i-da
+d de las tablas de transac-ciones,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--115
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--64
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--66
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--68
+Underfull \hbox (badness 10000) in paragraph at lines 120--121
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--70
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--74
-
- []
-
-
-Overfull \hbox (1.84657pt too wide) in paragraph at lines 75--76
+Overfull \hbox (1.84657pt too wide) in paragraph at lines 126--127
 []\T1/phv/b/n/10 M Despa-chos HongKong \T1/phv/m/n/10 (-20) (Movimiento)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--76
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--82
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 86--89
-\T1/phv/m/sl/10 (+20) Unidades Despachadas (DHK)=
- []
-
-
-Overfull \hbox (8.18947pt too wide) in paragraph at lines 86--89
-\T1/phv/m/sl/10 (-20) SUM('M Despa-chos HongKong'[Unidades
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 86--89
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 86--89
-
- []
-
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 112.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 136.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1ppl.fd"
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\mt-ppl.cfg"
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
-<fondo.pdf, id=1, pagebox=cropbox, 614.295pt x 794.97pt>
+<fondo.pdf, id=4, pagebox=cropbox, 614.295pt x 794.97pt>
 File: fondo.pdf Graphic file (type pdf)
 <use fondo.pdf>
-Package pdftex.def Info: fondo.pdf  used on input line 112. on input line 112.
+Package pdftex.def Info: fondo.pdf  used on input line 136. on input line 136.
 Package pdftex.def Info: Requested size: 614.31223pt x 794.99231pt on input lin
-e 112.
+e 136.
  [1{C:/Users/Usuario/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
  <./fondo.pdf
@@ -780,39 +1247,328 @@ e 112.
 pdfTeX warning: pdflatex.exe (file ./fondo.pdf): PDF inclusion: invalid other r
 esource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-Underfull \hbox (badness 10000) in paragraph at lines 163--164
-[]\T1/phv/b/n/10 Bioinformatics \T1/phv/m/n/10 (+20) (bahy-oh-in-fer-mat-
+File: fondo.pdf Graphic file (type pdf)
+<use fondo.pdf>
+Package pdftex.def Info: fondo.pdf  used on input line 151. on input line 151.
+Package pdftex.def Info: Requested size: 614.31223pt x 794.99231pt on input lin
+e 151.
+ [2]
+File: fondo.pdf Graphic file (type pdf)
+<use fondo.pdf>
+Package pdftex.def Info: fondo.pdf  used on input line 177. on input line 177.
+Package pdftex.def Info: Requested size: 614.31223pt x 794.99231pt on input lin
+e 177.
+ [3]
+Underfull \hbox (badness 10000) in paragraph at lines 182--183
+\T1/phv/b/n/10 Unidades Despachadas (DHK)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--183
+\T1/phv/m/sl/10 (+20) M Despa-chos HongKong $\OMS/cmsy/m/n/10 $ \T1/phv/m/n/10
+ (+20) NO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--183
+\T1/phv/m/n/10 (+20) HAY DEFINI-CIÓN EN SMART
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--183
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--187
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--190
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--194
+
  []
 
 File: fondo.pdf Graphic file (type pdf)
 <use fondo.pdf>
-Package pdftex.def Info: fondo.pdf  used on input line 164. on input line 164.
+Package pdftex.def Info: fondo.pdf  used on input line 207. on input line 207.
 Package pdftex.def Info: Requested size: 614.31223pt x 794.99231pt on input lin
-e 164.
-[2]
+e 207.
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 252--253
+[]\T1/phv/b/n/10 Balance \T1/phv/m/n/10 (+20) (bal-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 252--253
+\T1/phv/m/n/10 (+20) or some-thing
+ []
+
+
+Underfull \hbox (badness 6001) in paragraph at lines 252--253
+\T1/phv/m/n/10 (+20) to re-main up-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 252--253
+\T1/phv/m/n/10 (+20) An in-stru-ment
+ []
+
+
+Underfull \hbox (badness 7151) in paragraph at lines 252--253
+\T1/phv/m/n/10 (+20) at the cen-ter,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 252--253
+\T1/phv/m/n/10 (+20) or pan, one
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 252--253
+\T1/phv/m/n/10 (+20) other hold-ing
+ []
+
 File: fondo.pdf Graphic file (type pdf)
 <use fondo.pdf>
-Package pdftex.def Info: fondo.pdf  used on input line 188. on input line 188.
+Package pdftex.def Info: fondo.pdf  used on input line 253. on input line 253.
 Package pdftex.def Info: Requested size: 614.31223pt x 794.99231pt on input lin
-e 188.
- [3] (dictionary.aux) ) 
+e 253.
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 254--255
+[]\T1/phv/b/n/10 Barbet \T1/phv/m/n/10 (+20) (bahr-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 254--255
+\T1/phv/m/n/10 (+20) bit) \T1/phv/m/sl/10 (+20) Noun
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 254--255
+\OMS/cmsy/m/n/10 $ \T1/phv/m/n/10 (+20) A large-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 254--255
+\T1/phv/m/n/10 (+20) coloured fruit-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 254--255
+\T1/phv/m/n/10 (+20) with tufts of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 256--257
+\T1/phv/m/n/10 (+20) root) \T1/phv/m/sl/10 (+20) Noun $\OMS/cmsy/m/n/10 $
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 256--257
+\T1/phv/m/n/10 (+20) red spher-i-cal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 258--259
+[]\T1/phv/b/n/10 Besides \T1/phv/m/n/10 (+20) (bih-
+ []
+
+
+Underfull \hbox (badness 5077) in paragraph at lines 260--261
+\T1/phv/m/n/10 (+20) from the hor-i-
+ []
+
+
+Underfull \hbox (badness 5077) in paragraph at lines 262--263
+\T1/phv/m/n/10 (+20) from the hor-i-
+ []
+
+
+Underfull \hbox (badness 8056) in paragraph at lines 264--265
+\T1/phv/m/sl/10 (+20) jec-tive $\OMS/cmsy/m/n/10 $ \T1/phv/m/n/10 (+20) Tak-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 266--267
+[]\T1/phv/b/n/10 Bioinformatics
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 266--267
+\T1/phv/m/n/10 (+20) (bahy-oh-in-fer-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 266--267
+\T1/phv/m/n/10 (+20) mat-iks) \T1/phv/m/sl/10 (+20) Noun
+ []
+
+
+Underfull \hbox (badness 5147) in paragraph at lines 266--267
+\T1/phv/m/n/10 (+20) bi-o-log-i-cal data
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 266--267
+\T1/phv/m/n/10 (+20) ics and com-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 266--267
+\T1/phv/m/n/10 (+20) puter sci-ence,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 266--267
+\T1/phv/m/n/10 (+20) of genomes.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 266--267
+\T1/phv/m/n/10 (+20) col-lect-ing and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 266--267
+\T1/phv/m/n/10 (+20) plex bi-o-log-i-cal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 268--269
+[]\T1/phv/b/n/10 Bleep \T1/phv/m/n/10 (+20) (bleep)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 268--269
+\T1/phv/m/n/10 (+20) high-pitched
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 272--273
+\OMS/cmsy/m/n/10 $ \T1/phv/m/n/10 (+20) A sit-u-a-tion
+ []
+
+
+Underfull \hbox (badness 5359) in paragraph at lines 274--275
+[]\T1/phv/b/n/10 Book \T1/phv/m/n/10 (+20) (boo k)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--275
+\T1/phv/m/n/10 (+20) con-sist-ing of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--275
+\T1/phv/m/n/10 (+20) sewn to-gether
+ []
+
+
+Underfull \hbox (badness 5274) in paragraph at lines 274--275
+\T1/phv/m/n/10 (+20) and bound in
+ []
+
+File: fondo.pdf Graphic file (type pdf)
+<use fondo.pdf>
+Package pdftex.def Info: fondo.pdf  used on input line 275. on input line 275.
+Package pdftex.def Info: Requested size: 614.31223pt x 794.99231pt on input lin
+e 275.
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 276--277
+[]\T1/phv/b/n/10 Bran \T1/phv/m/n/10 (+20) (bran)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 276--277
+\T1/phv/m/sl/10 (+20) Noun $\OMS/cmsy/m/n/10 $ \T1/phv/m/n/10 (+20) The
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 276--277
+\T1/phv/m/n/10 (+20) partly ground
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 278--279
+[]\T1/phv/b/n/10 Break \T1/phv/m/n/10 (+20) (breyk)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 280--281
+[]\T1/phv/b/n/10 Bridge \T1/phv/m/n/10 (+20) (brij)
+ []
+
+
+Underfull \hbox (badness 8113) in paragraph at lines 280--281
+\T1/phv/m/n/10 (+20) a river, road,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 280--281
+\T1/phv/m/n/10 (+20) or other ob-
+ []
+
+
+Underfull \hbox (badness 5832) in paragraph at lines 282--283
+\T1/phv/m/n/10 (+20) bread typ-i-cally
+ []
+
+
+Underfull \hbox (badness 8019) in paragraph at lines 284--285
+\T1/phv/m/n/10 (+20) large hawk-like
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
+[]\T1/phv/b/n/10 Bystander
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
+\T1/phv/m/n/10 (+20) (bahy-stan-der)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
+\T1/phv/m/n/10 (+20) son who is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
+\T1/phv/m/n/10 (+20) event or in-ci-
+ []
+
+File: fondo.pdf Graphic file (type pdf)
+<use fondo.pdf>
+Package pdftex.def Info: fondo.pdf  used on input line 291. on input line 291.
+Package pdftex.def Info: Requested size: 614.31223pt x 794.99231pt on input lin
+e 291.
+[7
+
+] (dictionary.aux) ) 
 Here is how much of TeX's memory you used:
- 5074 strings out of 493312
- 75383 string characters out of 3138893
- 179939 words of memory out of 3000000
- 8416 multiletter control sequences out of 15000+200000
- 23706 words of font info for 103 fonts, out of 3000000 for 9000
+ 16633 strings out of 493312
+ 308562 string characters out of 3138893
+ 397653 words of memory out of 3000000
+ 19715 multiletter control sequences out of 15000+200000
+ 24152 words of font info for 97 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,14n,43p,412b,426s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc
-}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Pro
-gram Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/urw/helvetic/uhvro8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/pal
-atino/uplr8a.pfb>
-Output written on dictionary.pdf (3 pages, 117091 bytes).
+ 55i,16n,54p,414b,929s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/urw/helvetic/uhvro8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palati
+no/uplr8a.pfb>
+Output written on dictionary.pdf (7 pages, 130020 bytes).
 PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
+ 75 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 14854 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 14866 words of extra memory for PDF output out of 17280 (max. 10000000)
 

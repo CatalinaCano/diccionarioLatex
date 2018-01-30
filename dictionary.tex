@@ -21,12 +21,19 @@
 \documentclass[10pt,letter,twoside]{article} % 10pt font size, A4 paper and two-sided margins
 
 \usepackage[top=3.5cm,bottom=3.5cm,left=3.7cm,right=4.7cm,columnsep=30pt]{geometry} % Document margins and spacings
-
 \usepackage[utf8]{inputenc} % Required for inputting international characters
 \usepackage[T1]{fontenc} % Output font encoding for international characters
 \usepackage{color}
 \usepackage{palatino} % Use the Palatino font
 \usepackage{wallpaper}
+\usepackage{tabularx}
+\usepackage{makecell}%To keep spacing of text in tables
+\usepackage{booktabs}
+\usepackage{multirow}
+
+\setcellgapes{5pt}%parameter for the spacing
+\newcolumntype{L}{>{\raggedright\arraybackslash}X}
+\usepackage{float}
 \ULCornerWallPaper{1}{fondo.pdf}
 \usepackage{microtype} % Improves spacing
 
@@ -45,6 +52,35 @@
 \newcommand{\entry}[4]{\textbf{#1}\markboth{#1}{#1}\ {(#2)}\ \textit{#3}\ $\bullet$\ {#4}} % Defines the command to print each word on the page, \markboth{}{} prints the first word on the page in the top left header and the last word in the top right
 \renewcommand{\familydefault}{\sfdefault}
 \setlength{\parindent}{0pt}
+\setlength{\fboxrule}{1mm}
+\setlength{\fboxsep}{6mm}
+\usepackage{tikz}
+\usepackage{amsmath}
+\usepackage{amsmath,amssymb}%      pour les maths
+\usepackage{enumitem}
+\usepackage{varwidth}
+\definecolor{blued}{rgb}{0.122, 0.435, 0.698}
+
+\usetikzlibrary{calc}
+
+\newcommand{\mybox}[4][\textwidth-\pgfkeysvalueof{/pgf/inner xsep}-2mm]{%
+	\begin{figure}[!h]
+		\centering
+		\begin{tikzpicture}
+		\node[line width=.5mm, rounded corners, draw=#2, inner ysep=10pt, text width=#1, outer sep=0] (one) {\vspace*{15pt}\\\begin{varwidth}{\textwidth}#4\end{varwidth}};
+		\node[text=white,anchor=north east,align=center, minimum height=20pt] (two) at (one.north east) {#3 \hspace*{.5mm}};
+		\path[fill=#2] 
+		(one.north west|-two.west) --
+		($(two.west)+(-1.5cm,0)$) 
+		to[out=0,in=180] (two.south west) --
+		(two.south east) [rounded corners] --
+		(one.north east) -- 
+		(one.north west) [sharp corners] -- cycle;
+		\node[text=white,anchor=north east,align=center, minimum height=20pt, text height=2ex] (three) at (one.north east) {#3 \hspace*{.5mm}};
+		\end{tikzpicture} 
+	\end{figure}
+}
+
 
 %----------------------------------------------------------------------------------------
 
@@ -54,12 +90,27 @@
 %	SECTION A
 %----------------------------------------------------------------------------------------
 
-\section*{MODELO COMERCIAL}
 
+\section*{DICCIONARIO DE MODELOS }
+
+
+
+\mybox{blued!70!black}{¿Cómo leer este Documento?}{
+	Este documento contiene tres secciones importantes:
+	\begin{enumerate}
+		\item \textbf{Convenciones:} Representa la nomenclatura usada para las métricas.\\ Esta sección presenta \textbf{Nombre Convención} (Tabla asociada a la convención) $\bullet$ Descripción.
+		
+		\item \textbf{Movimientos:} Describe la funcionalidad de las tablas de transacciones, asociadas al Modelo Comercial.\\ Esta sección presenta \textbf{Nombre de la Tabla} (Tipo de tabla (Búsqueda, Movimiento)) $\bullet$ Descripción.
+		
+		\item \textbf{Métricas:} Describe la funcionalidad de la métrica dentro del contexto del negocio.\\ Esta sección presenta \textbf{Nombre de la Métrica} (Cubos en los que se encuentra la métrica) \textit{Tabla dueña de la métrica} $\bullet$ Descripción y fórmula.
+\end{enumerate}}
+
+
+\section*{MODELO COMERCIAL}
 \begin{multicols}{2}
 
-\textbf{CONVENCIONES}\\ 
-\newline
+\section*{CONVENCIONES}
+
 \entry{DHK}{Despachos HongKong}{}{Todas las métricas asociadas a los Despachos HongKong, se identificaran  con (DHK)}\\
 
 \entry{PV}{Pedido de Venta}{}{Todas las métricas asociadas a los pedidos de venta, se identifican con (PV)}\\
@@ -72,23 +123,75 @@
 
 Los movimientos representan los procesos de negocio de la compañía, por tal motivo son la base para el análisis.\\ 
 
-\entry{M Despachos HongKong}{Movimiento}{ }{Todas las métricas asociadas a los Despachos HongKong, se identificaran  con (DHK)}\\
+\entry{M Despachos HongKong}{Movimiento}{ }{Descripción de la Fact}\\
 
-\entry{M Pedido de Venta}{Movimiento}{}{Tta, se identifican con (PV)odas las métricas asociadas a los pedidos de ven}\\
+\entry{M Pedido de Venta}{Movimiento}{}{Descripción de la Fact}\\
 
-\entry{PC}{Presupuesto Comercial}{}{Todas las métricas asociadas al presupuesto comercial, se identifican con (PC)}\\
+\entry{PC}{Presupuesto Comercial}{}{Descripción de la Fact}\\
 
-\entry{VC}{Ventas Compañía}{}{Todas las métricas asociadas a las Ventas de la Compañía, se identifican con (PC)}\\
+\entry{VC}{Ventas Compañía}{}{Descripción de la Fact}\\
 
 
+
+\newpage
+
+\onecolumn
+
+\section*{Condición de Pago}
+\begin{table}[H]
+	\centering
+	\makegapedcells
+	\begin{tabularx}{\linewidth}{|L|c|L|} 
+		\hline
+		\multicolumn{1}{|c|}{Nombre Tabla}   & \multicolumn{1}{c|}{Nombre Campo}                                    & \multicolumn{1}{c|}{Descripción Campo}                                                                                                   \\ \hline
+		D Condición de Pago & \begin{tabular}[c]{@{}l@{}}Código Condición\\   de Pago\end{tabular} & Representa el Código con el que se identifican de manera única las condiciones de pago  \vfill                                                 \\ \cline{2-3} 
+		& Condición de Pago                                                    & Representa un acuerdo establecido con clientes y proveedores como tipos de descuento, plazos de pago, condiciones de entrega entre otros \vfill\\ \hline
+	\end{tabularx}
+\end{table}
+\newpage
+\section*{Compañía}
+\begin{table}[H]
+	\centering
+	\makegapedcells
+	\begin{tabularx}{\linewidth}{|L|c|L|} 
+		\hline
+		\multicolumn{1}{|c|}{Nombre Tabla}   & \multicolumn{1}{c|}{Nombre Campo}                                    & \multicolumn{1}{c|}{Descripción Campo}                                                                                                   \\ \hline
+		D Compañía & \begin{tabular}[c]{@{}l@{}}Código Compañía\end{tabular} & Representa el Código con el que se identifican de manera única las compañías. \vfill                                                 \\ \cline{2-3} 
+		& Compañía                                                   & Representa la compañía (NASA, NALSANI). \vfill\\ \hline
+	\end{tabularx}
+\end{table}
+
+\section*{Moneda}
+\begin{table}[H]
+	\centering
+	\makegapedcells
+	\begin{tabularx}{\linewidth}{|L|c|L|} 
+		\hline
+		\multicolumn{1}{|c|}{Nombre Tabla}   & \multicolumn{1}{c|}{Nombre Campo}                                    & \multicolumn{1}{c|}{Descripción Campo}                                                                                                   \\ \hline
+		D Moneda & \begin{tabular}[c]{@{}l@{}}Código Moneda\end{tabular} & Representa el Código con el que se identifican de manera las Monedas. \vfill                                                 \\ \cline{2-3} 
+		& Moneda                                                   & Unidad representativa del precio de las cosas que permite efectuar transacciones comerciales. \vfill\\ \hline
+	\end{tabularx}
+\end{table}
+
+
+\newpage
+\twocolumn
 \section*{MÉTRICAS}
 
-\entry{Unidades Despachadas (DHK)}{Cubo Comercial}{Noun}{A nocturnal badger-sized burrowing mammal of Africa, with long ears, a tubular snout, and a long extensible tongue, feeding on ants and termites. Also called antbear. }\\
-\textit{Unidades Despachadas (DHK)= SUM('M  Despachos HongKong'[Unidades Despachadas])}
-\\ \\
+\entry{Unidades Despachadas (DHK)}{Cubo Comercial-Cubo Ventas POS}{M  Despachos HongKong}{NO HAY DEFINICIÓN EN SMART SHEET.	
+ \underline{\textbf{Fórmula:}} SUM('M  Despachos HongKong'[Unidades Despachadas])}\\
 
 
-\entry{Abbreviated}{uh-bree-vee-ey-tid}{Adjective}{Constituting a shorter or smaller version of}
+\entry{Valor Despacho COP (DHK)}{Cubo Comercial-Cubo Ventas POS}{M  Despachos HongKong}{NO HAY DEFINICIÓN EN SMART SHEET.	
+	\underline{\textbf{Fórmula:}} SUM('M  Despachos HongKong'[Valor Despacho COP])}\\
+
+\entry{Valor Despacho USD (DHK)}{Cubo Comercial-Cubo Ventas POS}{M  Despachos HongKong}{NO HAY DEFINICIÓN EN SMART SHEET.	
+	\underline{\textbf{Fórmula:}} SUM('M  Despachos HongKong'[Valor Despacho USD])}\\
+
+
+\entry{\% Unidades Facturadas / Reservadas (PV)}{Cubo Comercial-Cubo Ventas POS}{M  Pedido de Venta}{Porcentaje de comparación entre las Unidades Facturadas	
+	\underline{\textbf{Fórmula:}} SUM('M  Despachos HongKong'[Valor Despacho USD])}\\
+
 
 \entry{Aberration}{ab-uh-rey-shuh n}{Noun}{The act of deviating from the ordinary, usual, or normal type.}
 
@@ -140,7 +243,7 @@ Los movimientos representan los procesos de negocio de la compañía, por tal mo
 %	SECTION B
 %----------------------------------------------------------------------------------------
 
-\section*{B}
+\section*{MODELO FINANCIERO}
 
 \begin{multicols}{2}
 
