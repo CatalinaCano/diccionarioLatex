@@ -19,7 +19,7 @@
 %----------------------------------------------------------------------------------------
 
 \documentclass[10pt,letter,twoside]{article} % 10pt font size, A4 paper and two-sided margins
-
+\usepackage{adjustbox}
 \usepackage[top=3.5cm,bottom=3.5cm,left=3.7cm,right=4.7cm,columnsep=30pt]{geometry} % Document margins and spacings
 \usepackage[utf8]{inputenc} % Required for inputting international characters
 \usepackage[T1]{fontenc} % Output font encoding for international characters
@@ -136,7 +136,8 @@ Los movimientos representan los procesos de negocio de la compañía, por tal mo
 \newpage
 
 \onecolumn
-
+\section*{Tablas de Búsqueda}
+Las tablas de búsqueda representan todas las posibles perspectivas desde las cuales puede ser analizadas las tablas de movimientos. 
 \section*{Condición de Pago}
 \begin{table}[H]
 	\centering
@@ -160,6 +161,8 @@ Los movimientos representan los procesos de negocio de la compañía, por tal mo
 		& Compañía                                                   & Representa la compañía (NASA, NALSANI). \vfill\\ \hline
 	\end{tabularx}
 \end{table}
+
+
 \newpage
 \section*{Moneda}
 \begin{table}[H]
@@ -168,10 +171,11 @@ Los movimientos representan los procesos de negocio de la compañía, por tal mo
 	\begin{tabularx}{\linewidth}{|L|c|L|} 
 		\hline
 		\multicolumn{1}{|c|}{Nombre Tabla}   & \multicolumn{1}{c|}{Nombre Campo}                                    & \multicolumn{1}{c|}{Descripción Campo}                                                                                                   \\ \hline
-		D Moneda & \begin{tabular}[c]{@{}l@{}}Código Moneda\end{tabular} & Representa el Código con el que se identifican de manera las Monedas. \vfill                                                 \\ \cline{2-3} 
+		D Moneda & \begin{tabular}[c]{@{}l@{}}Código Moneda\end{tabular} & Representa el Código con el que se identifican de manera única las Monedas. \vfill                                                 \\ \cline{2-3} 
 		& Moneda                                                   & Unidad representativa del precio de las cosas que permite efectuar transacciones comerciales. \vfill\\ \hline
 	\end{tabularx}
 \end{table}
+
 
 
 \section*{Tipo de Transacción}
@@ -180,14 +184,118 @@ Los movimientos representan los procesos de negocio de la compañía, por tal mo
 	\makegapedcells
 	\begin{tabularx}{\linewidth}{|L|c|L|} 
 		\hline
-		\multicolumn{1}{|c|}{Nombre Tabla}   & \multicolumn{1}{c|}{Nombre Campo}                                    & \multicolumn{1}{c|}{Descripción Campo}                                                                                                   \\ \hline
-		D Moneda & \begin{tabular}[c]{@{}l@{}}Código Tipo de Transacción\end{tabular} & Representa el Código con el que se identifican de manera las Monedas. \vfill                                                 \\ \cline{2-3} 
-		& Moneda                                                   & Unidad representativa del precio de las cosas que permite efectuar transacciones comerciales. \vfill\\ \hline
+		\multicolumn{1}{|c|}{Nombre Tabla}   & \multicolumn{1}{c|}{Nombre del Campo}                                    & \multicolumn{1}{c|}{Descripción del Campo}                                                                                                   \\ \hline
+		D Tipo de Transacción & \begin{tabular}[c]{@{}l@{}}Código Tipo de Transacción\end{tabular} & Representa el Código con el que se identifican de manera única los tipos de transacción. \vfill                                                 \\ \cline{2-3} 
+		& Tipo de Transacción                                                   & NO APARECE EN SMARTSHEET \vfill\\ \hline
+	\end{tabularx}
+\end{table}
+
+\section*{Tipo de Presupuesto}
+\begin{table}[H]
+	\centering
+	\makegapedcells
+	\begin{tabularx}{\linewidth}{|L|c|L|} 
+	\hline
+	Nombre de la Tabla                     & Nombre del Campo        & Descripción del Campo                                                                                           \\ \hline
+	\multirow{2}{*}{D Tipo de Presupuesto} & Código Tipo Presupuesto & Representa el Código con el que se identifican de manera única los tipos de presupuesto que asigna la compañía. \\ \cline{2-3} 
+	& Tipo Presupuesto        & Es la clasificación otorgada a los diferentes presupuesto que asigna la compañía.                               \\ \hline
+	
+	\end{tabularx}
+\end{table}
+
+\newpage
+\section*{Centro de Costo}
+\begin{table}[H]
+	\centering
+	\makegapedcells
+	\begin{tabularx}{\linewidth}{|L|c|L|} 
+		\hline
+		Nombre de la Tabla               & Nombre del Campo & Descripción del Campo                                                                                                   \\ \hline
+		\multirow{3}{*}{D Centro de Costo} & Centro de Costo  & NO APARECE EN SMARTSHEET                                                                                                \\ \cline{2-3} 
+		& Canal            & Es la estructura de negocio encargada de llevar el producto hasta el cliente desde el punto de origen                   \\ \cline{2-3} 
+		& Gerencia         & Persona o conjunto de personas que se encargan de dirigir, gestionar o administrar una sociedad, empresa u otra entidad \\ \hline
+	\end{tabularx}
+\end{table}
+
+\section*{Geografía}
+\begin{table}[H]
+	\centering
+	\makegapedcells
+	\begin{tabularx}{\linewidth}{|L|c|L|} 
+		\hline
+		Nombre de la Tabla           & Nombre del Campo & Descripción del Campo              \\ \hline
+		\multirow{5}{*}{D Geografía} & País             & Nombre del País                    \\ \cline{2-3} 
+		& Departamento     & Nombre del Departamento            \\ \cline{2-3} 
+		& Ciudad           & Nombre de la Ciudad                \\ \cline{2-3} 
+		& Código Postal    & Número del Código Postal           \\ \cline{2-3} 
+		& Población        & Conjunto de Habitantes de un lugar \\ \hline
 	\end{tabularx}
 \end{table}
 
 
+\section*{Dirección Comercial}
+\begin{table}[H]
+	\centering
+	\makegapedcells
+	\begin{tabularx}{\linewidth}{|L|c|L|} 
+		\hline
+		Nombre de la Tabla    & Nombre del Campo & Descripción del Campo    \\ \hline
+		D Dirección Comercial & Dirección        & NO APARECE EN SMARTSHHET \\ \hline
+	\end{tabularx}
+\end{table}
+
 \newpage
+
+
+\section*{Tiempo}
+\begin{table}[H]
+	\centering
+	\makegapedcells
+	\begin{tabularx}{\linewidth}{|L|c|L|} 
+	\hline
+	Nombre Tabla              & Nombre del Campo    & Descripción del Campo                                                                                    \\ \hline
+	\multirow{9}{*}{D Tiempo} & Fecha               & Es una representación del tiempo en formato (DD/MM/AAAA)                                                 \\ \cline{2-3} 
+	& Temporada           & Período caracterizado por algo o destinado a cierta actividad                                            \\ \cline{2-3} 
+	& Año Comercial       & Representa el período de tiempo comprendido por 12 meses, iniciando en Abril y finalizando en Marzo.     \\ \cline{2-3} 
+	& Semestre Comercial  & Representa el período de tiempo comprendido por 6 meses, iniciando en Abril y finalizando en Septiembre. \\ \cline{2-3} 
+	& Trimestre Comercial & Representa el período de tiempo comprendido por 3 meses, iniciando en Abril y finalizando en Junio.      \\ \cline{2-3} 
+	& .Mes Comercial      & Representa un período de tiempo generalmente comprendido por 30 días.                                    \\ \cline{2-3} 
+	& Semana Comercial    & Representa un período de tiempo comprendido por 7 días.                                                  \\ \cline{2-3} 
+	& Día de la Semana    & Representa el nombre del día de la semana.                                                               \\ \cline{2-3} 
+	& Día                 & Representa un intervalo de tiempo comprendido por 24 horas, enuncia el nombre del mes y su día.          \\ \hline
+	\end{tabularx}
+\end{table}
+
+\newpage
+\section*{Cliente}
+\begin{table}[H]
+	\centering
+	\makegapedcells
+	\begin{adjustbox}{max height=0.5\textheight}
+		\begin{tabularx}{\linewidth}{|L|c|L|} 
+			\hline
+			Nombre de la Tabla          & Nombre del Campo         & Descripción del Campo                                                                                         \\ \hline
+			\multirow{14}{*}{D Cliente} & Cliente                  & Nombre de la persona que adquiere un producto o servicio                                                      \\ \cline{2-3} 
+			& Latitud                  & Representa un coordenada de georeferenciación                                                                 \\ \cline{2-3} 
+			& Longitud                 & Representa un coordenada de georeferenciación                                                                 \\ \cline{2-3} 
+			& Género                   & Conjuntode personas o cosas que tienen características generales comunes                                      \\ \cline{2-3} 
+			& Límite de Crédito        & NO APARECE EN SMARTSHHET                                                                                      \\ \cline{2-3} 
+			& Número de Identificación & Número único que permite identificar ante entidades estatales a una persona u organización (Cédula, NIT, etc) \\ \cline{2-3} 
+			& Cuenta del Cliente       & NO APARECE EN SMARTSHHET                                                                                      \\ \cline{2-3} 
+			& Grupo del Cliente        & NO APARECE EN SMARTSHHET                                                                                      \\ \cline{2-3} 
+			& País                     & Nombre del País en el que se encuentra el cliente                                                             \\ \cline{2-3} 
+			& Depatamento              & Nombre del Departamento en el que se encuentra ubicado el cliente                                             \\ \cline{2-3} 
+			& Ciudad                   & Nombre de la Ciudad en la que se encuentra ubicado el cliente                                                 \\ \cline{2-3} 
+			& Código Sucursal          & Código que representa de manera única cada una de las sucursales de la compañía.                              \\ \cline{2-3} 
+			& Sucrusal                 & Nombre del establecimiento que depende de la compañía                                                         \\ \cline{2-3} 
+			& Dirección                & Indicación precisa del lugar en el que se encuentra el cliente   \\ \hline 
+		\end{tabularx}
+	\end{adjustbox}
+	
+\end{table}
+
+
+
 \twocolumn
 \section*{MÉTRICAS}
 

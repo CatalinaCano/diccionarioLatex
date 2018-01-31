@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.25)  30 JAN 2018 08:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.25)  30 JAN 2018 12:42
 entering extended mode
 **./dictionary.tex
 (dictionary.tex
@@ -21,13 +21,80 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\adjustbox\adjustbox.sty"
+Package: adjustbox 2012/05/21 v1.0 Adjusting TeX boxes (trim, clip, ...)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex"
+\XKV@toks=\toks14
+\XKV@tempa@toks=\toks15
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\keyval.tex"))
+\XKV@depth=\count87
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\adjustbox\adjcalc.sty"
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\adjustbox\trimclip.sty"
+Package: trimclip 2012/05/16 v1.0 Trim and clip general TeX material
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2017/06/24 v1.0g Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\collectbox\collectbox.sty"
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box26
+)
+\tc@llx=\dimen105
+\tc@lly=\dimen106
+\tc@urx=\dimen107
+\tc@ury=\dimen108
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\adjustbox\tc-pdftex.def"
+File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen109
+\adjbox@Height=\dimen110
+\adjbox@Depth=\dimen111
+\adjbox@Totalheight=\dimen112
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\ifoddpage\ifoddpage.sty"
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count88
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\varwidth.sty"
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box27
+\sift@deathcycles=\count89
+\@vwid@loff=\dimen113
+\@vwid@roff=\dimen114
+))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks14
-)
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
@@ -38,24 +105,24 @@ Package ifvtex Info: VTeX not detected.
 ("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count87
-\Gm@cntv=\count88
-\c@Gm@tempcnt=\count89
-\Gm@bindingoffset=\dimen103
-\Gm@wd@mp=\dimen104
-\Gm@odd@mp=\dimen105
-\Gm@even@mp=\dimen106
-\Gm@layoutwidth=\dimen107
-\Gm@layoutheight=\dimen108
-\Gm@layouthoffset=\dimen109
-\Gm@layoutvoffset=\dimen110
-\Gm@dimlist=\toks15
+\Gm@cnth=\count90
+\Gm@cntv=\count91
+\c@Gm@tempcnt=\count92
+\Gm@bindingoffset=\dimen115
+\Gm@wd@mp=\dimen116
+\Gm@odd@mp=\dimen117
+\Gm@even@mp=\dimen118
+\Gm@layoutwidth=\dimen119
+\Gm@layoutheight=\dimen120
+\Gm@layouthoffset=\dimen121
+\Gm@layoutvoffset=\dimen122
+\Gm@dimlist=\toks16
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2015/03/17 v1.2c Input encoding file
-\inpenc@prehook=\toks16
-\inpenc@posthook=\toks17
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
@@ -384,10 +451,7 @@ Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
-File: pdftex.def 2017/06/24 v1.0g Graphics/color driver for pdftex
-))
+)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\palatino.sty"
 Package: palatino 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
@@ -399,15 +463,15 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count90
-\calc@Bcount=\count91
-\calc@Adimen=\dimen111
-\calc@Bdimen=\dimen112
+\calc@Acount=\count93
+\calc@Bcount=\count94
+\calc@Adimen=\dimen123
+\calc@Bdimen=\dimen124
 \calc@Askip=\skip43
 \calc@Bskip=\skip44
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count92
+\calc@Ccount=\count95
 \calc@Cskip=\skip45
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.sty"
@@ -422,23 +486,6 @@ Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )))
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
-Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
-)
-Package graphics Info: Driver file: pdftex.def on input line 99.
-)
-\Gin@req@height=\dimen113
-\Gin@req@width=\dimen114
-)
 \wpXoffset=\skip46
 \wpYoffset=\skip47
 \tileXoffset=\skip48
@@ -453,69 +500,69 @@ Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
 Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
-\col@sep=\dimen115
-\extrarowheight=\dimen116
-\NC@list=\toks18
+\col@sep=\dimen125
+\extrarowheight=\dimen126
+\NC@list=\toks19
 \extratabsurround=\skip54
 \backup@length=\skip55
 )
-\TX@col@width=\dimen117
-\TX@old@table=\dimen118
-\TX@old@col=\dimen119
-\TX@target=\dimen120
-\TX@delta=\dimen121
-\TX@cols=\count93
-\TX@ftn=\toks19
+\TX@col@width=\dimen127
+\TX@old@table=\dimen128
+\TX@old@col=\dimen129
+\TX@target=\dimen130
+\TX@delta=\dimen131
+\TX@cols=\count96
+\TX@ftn=\toks20
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\makecell\makecell.sty"
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
-\rotheadsize=\dimen122
-\c@nlinenum=\count94
-\TeXr@lab=\toks20
+\rotheadsize=\dimen132
+\c@nlinenum=\count97
+\TeXr@lab=\toks21
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
-\heavyrulewidth=\dimen123
-\lightrulewidth=\dimen124
-\cmidrulewidth=\dimen125
-\belowrulesep=\dimen126
-\belowbottomsep=\dimen127
-\aboverulesep=\dimen128
-\abovetopsep=\dimen129
-\cmidrulesep=\dimen130
-\cmidrulekern=\dimen131
-\defaultaddspace=\dimen132
-\@cmidla=\count95
-\@cmidlb=\count96
-\@aboverulesep=\dimen133
-\@belowrulesep=\dimen134
-\@thisruleclass=\count97
-\@lastruleclass=\count98
-\@thisrulewidth=\dimen135
+\heavyrulewidth=\dimen133
+\lightrulewidth=\dimen134
+\cmidrulewidth=\dimen135
+\belowrulesep=\dimen136
+\belowbottomsep=\dimen137
+\aboverulesep=\dimen138
+\abovetopsep=\dimen139
+\cmidrulesep=\dimen140
+\cmidrulekern=\dimen141
+\defaultaddspace=\dimen142
+\@cmidla=\count98
+\@cmidlb=\count99
+\@aboverulesep=\dimen143
+\@belowrulesep=\dimen144
+\@thisruleclass=\count100
+\@lastruleclass=\count101
+\@thisrulewidth=\dimen145
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 \multirow@colwidth=\skip56
-\multirow@cntb=\count99
+\multirow@cntb=\count102
 \multirow@dima=\skip57
-\bigstrutjot=\dimen136
+\bigstrutjot=\dimen146
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count100
-\float@exts=\toks21
-\float@box=\box26
-\@float@everytoks=\toks22
-\@floatcapt=\box27
+\c@float@type=\count103
+\float@exts=\toks22
+\float@box=\box28
+\@float@everytoks=\toks23
+\@floatcapt=\box29
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\microtype.sty"
 Package: microtype 2018/01/14 v2.7a Micro-typographical refinements (RS)
-\MT@toks=\toks23
-\MT@count=\count101
+\MT@toks=\toks24
+\MT@count=\count104
 LaTeX Info: Redefining \textls on input line 793.
-\MT@outer@kern=\dimen137
+\MT@outer@kern=\dimen147
 LaTeX Info: Redefining \textmicrotypecontext on input line 1339.
-\MT@listname@count=\count102
+\MT@listname@count=\count105
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\microtype-pdftex.def"
 File: microtype-pdftex.def 2018/01/14 v2.7a Definitions specific to pdftex (RS)
@@ -531,29 +578,27 @@ File: microtype.cfg 2018/01/14 v2.7a microtype main configuration file (RS)
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\multicol.sty"
 Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
-\c@tracingmulticols=\count103
-\mult@box=\box28
-\multicol@leftmargin=\dimen138
-\c@unbalance=\count104
-\c@collectmore=\count105
-\doublecol@number=\count106
-\multicoltolerance=\count107
-\multicolpretolerance=\count108
-\full@width=\dimen139
-\page@free=\dimen140
-\premulticols=\dimen141
-\postmulticols=\dimen142
+\c@tracingmulticols=\count106
+\mult@box=\box30
+\multicol@leftmargin=\dimen148
+\c@unbalance=\count107
+\c@collectmore=\count108
+\doublecol@number=\count109
+\multicoltolerance=\count110
+\multicolpretolerance=\count111
+\full@width=\dimen149
+\page@free=\dimen150
+\premulticols=\dimen151
+\postmulticols=\dimen152
 \multicolsep=\skip59
 \multicolbaselineskip=\skip60
-\partial@page=\box29
-\last@line=\box30
-\maxbalancingoverflow=\dimen143
-\mult@rightbox=\box31
-\mult@grightbox=\box32
-\mult@gfirstbox=\box33
-\mult@firstbox=\box34
-\@tempa=\box35
-\@tempa=\box36
+\partial@page=\box31
+\last@line=\box32
+\maxbalancingoverflow=\dimen153
+\mult@rightbox=\box33
+\mult@grightbox=\box34
+\mult@gfirstbox=\box35
+\mult@firstbox=\box36
 \@tempa=\box37
 \@tempa=\box38
 \@tempa=\box39
@@ -569,26 +614,28 @@ Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
 \@tempa=\box49
 \@tempa=\box50
 \@tempa=\box51
-\c@columnbadness=\count109
-\c@finalcolumnbadness=\count110
-\last@try=\dimen144
-\multicolovershoot=\dimen145
-\multicolundershoot=\dimen146
-\mult@nat@firstbox=\box52
-\colbreak@box=\box53
-\mc@col@check@num=\count111
+\@tempa=\box52
+\@tempa=\box53
+\c@columnbadness=\count112
+\c@finalcolumnbadness=\count113
+\last@try=\dimen154
+\multicolovershoot=\dimen155
+\multicolundershoot=\dimen156
+\mult@nat@firstbox=\box54
+\colbreak@box=\box55
+\mc@col@check@num=\count114
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\titlesec\titlesec.sty"
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
-\ttl@box=\box54
+\ttl@box=\box56
 \beforetitleunit=\skip61
 \aftertitleunit=\skip62
-\ttl@plus=\dimen147
-\ttl@minus=\dimen148
-\ttl@toksa=\toks24
-\titlewidth=\dimen149
-\titlewidthlast=\dimen150
-\titlewidthfirst=\dimen151
+\ttl@plus=\dimen157
+\ttl@minus=\dimen158
+\ttl@toksa=\toks25
+\titlewidth=\dimen159
+\titlewidthlast=\dimen160
+\titlewidthfirst=\dimen161
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
 Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
@@ -607,13 +654,13 @@ s
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgf.sty"
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\utilities\pgfrcs.sty"
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common.tex"
-\pgfutil@everybye=\toks25
-\pgfutil@tempdima=\dimen152
-\pgfutil@tempdimb=\dimen153
+\pgfutil@everybye=\toks26
+\pgfutil@tempdima=\dimen162
+\pgfutil@tempdimb=\dimen163
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common-lists.te
 x")) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-latex.def"
-\pgfutil@abb=\box55
+\pgfutil@abb=\box57
 ("C:\Program Files\MiKTeX 2.9\tex\latex\ms\everyshi.sty"
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
@@ -628,30 +675,30 @@ Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex"
-\pgfkeys@pathtoks=\toks26
-\pgfkeys@temptoks=\toks27
+\pgfkeys@pathtoks=\toks27
+\pgfkeys@temptoks=\toks28
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeysfiltered.code.te
 x"
-\pgfkeys@tmptoks=\toks28
+\pgfkeys@tmptoks=\toks29
 ))
-\pgf@x=\dimen154
-\pgf@y=\dimen155
-\pgf@xa=\dimen156
-\pgf@ya=\dimen157
-\pgf@xb=\dimen158
-\pgf@yb=\dimen159
-\pgf@xc=\dimen160
-\pgf@yc=\dimen161
+\pgf@x=\dimen164
+\pgf@y=\dimen165
+\pgf@xa=\dimen166
+\pgf@ya=\dimen167
+\pgf@xb=\dimen168
+\pgf@yb=\dimen169
+\pgf@xc=\dimen170
+\pgf@yc=\dimen171
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
-\c@pgf@counta=\count112
-\c@pgf@countb=\count113
-\c@pgf@countc=\count114
-\c@pgf@countd=\count115
-\t@pgf@toka=\toks29
-\t@pgf@tokb=\toks30
-\t@pgf@tokc=\toks31
+\c@pgf@counta=\count115
+\c@pgf@countb=\count116
+\c@pgf@countc=\count117
+\c@pgf@countd=\count118
+\t@pgf@toka=\toks30
+\t@pgf@tokb=\toks31
+\t@pgf@tokc=\toks32
  ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgf.cfg"
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
@@ -667,8 +714,8 @@ File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.t
 ex"
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count116
-\pgfsyssoftpath@bigbuffer@items=\count117
+\pgfsyssoftpath@smallbuffer@items=\count119
+\pgfsyssoftpath@bigbuffer@items=\count120
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsysprotocol.code.t
 ex"
@@ -698,12 +745,12 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathcalc.code.tex"
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathutil.code.tex")
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathparser.code.tex"
-\pgfmath@dimen=\dimen162
-\pgfmath@count=\count118
-\pgfmath@box=\box56
-\pgfmath@toks=\toks32
-\pgfmath@stack@operand=\toks33
-\pgfmath@stack@operation=\toks34
+\pgfmath@dimen=\dimen172
+\pgfmath@count=\count121
+\pgfmath@box=\box58
+\pgfmath@toks=\toks33
+\pgfmath@stack@operand=\toks34
+\pgfmath@stack@operation=\toks35
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.code.tex"
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.basic.code.
@@ -723,57 +770,57 @@ ex")
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.integerarit
 hmetics.code.tex")))
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfloat.code.tex"
-\c@pgfmathroundto@lastzeros=\count119
+\c@pgfmathroundto@lastzeros=\count122
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepoints.code.tex
 "
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
-\pgf@picminx=\dimen163
-\pgf@picmaxx=\dimen164
-\pgf@picminy=\dimen165
-\pgf@picmaxy=\dimen166
-\pgf@pathminx=\dimen167
-\pgf@pathmaxx=\dimen168
-\pgf@pathminy=\dimen169
-\pgf@pathmaxy=\dimen170
-\pgf@xx=\dimen171
-\pgf@xy=\dimen172
-\pgf@yx=\dimen173
-\pgf@yy=\dimen174
-\pgf@zx=\dimen175
-\pgf@zy=\dimen176
+\pgf@picminx=\dimen173
+\pgf@picmaxx=\dimen174
+\pgf@picminy=\dimen175
+\pgf@picmaxy=\dimen176
+\pgf@pathminx=\dimen177
+\pgf@pathmaxx=\dimen178
+\pgf@pathminy=\dimen179
+\pgf@pathmaxy=\dimen180
+\pgf@xx=\dimen181
+\pgf@xy=\dimen182
+\pgf@yx=\dimen183
+\pgf@yy=\dimen184
+\pgf@zx=\dimen185
+\pgf@zy=\dimen186
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathconstruct.c
 ode.tex"
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
-\pgf@path@lastx=\dimen177
-\pgf@path@lasty=\dimen178
+\pgf@path@lastx=\dimen187
+\pgf@path@lasty=\dimen188
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathusage.code.
 tex"
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
-\pgf@shorten@end@additional=\dimen179
-\pgf@shorten@start@additional=\dimen180
+\pgf@shorten@end@additional=\dimen189
+\pgf@shorten@start@additional=\dimen190
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorescopes.code.tex
 "
 File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
-\pgfpic=\box57
-\pgf@hbox=\box58
-\pgf@layerbox@main=\box59
-\pgf@picture@serial@count=\count120
+\pgfpic=\box59
+\pgf@hbox=\box60
+\pgf@layerbox@main=\box61
+\pgf@picture@serial@count=\count123
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoregraphicstate.co
 de.tex"
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
-\pgflinewidth=\dimen181
+\pgflinewidth=\dimen191
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransformations
 .code.tex"
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
-\pgf@pt@x=\dimen182
-\pgf@pt@y=\dimen183
-\pgf@pt@temp=\dimen184
+\pgf@pt@x=\dimen192
+\pgf@pt@y=\dimen193
+\pgf@pt@temp=\dimen194
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorequick.code.tex"
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
@@ -789,12 +836,12 @@ File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorearrows.code.tex
 "
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
-\pgfarrowsep=\dimen185
+\pgfarrowsep=\dimen195
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex"
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
-\pgf@max=\dimen186
-\pgf@sys@shading@range@num=\count121
+\pgf@max=\dimen196
+\pgf@sys@shading@range@num=\count124
 ) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreimage.code.te
 x"
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
@@ -802,7 +849,7 @@ File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreexternal.code.t
 ex"
 File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
-\pgfexternal@startupbox=\box60
+\pgfexternal@startupbox=\box62
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorelayers.code.tex
 "
@@ -818,15 +865,15 @@ File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 )))
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleshapes.code.tex"
 File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
-\pgfnodeparttextbox=\box61
+\pgfnodeparttextbox=\box63
 ) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleplot.code.tex"
 File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-0-65.
 sty"
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen187
-\pgf@nodesepend=\dimen188
+\pgf@nodesepstart=\dimen197
+\pgf@nodesepend=\dimen198
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-1-18.
 sty"
@@ -840,10 +887,10 @@ Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex")
-\pgffor@iter=\dimen189
-\pgffor@skip=\dimen190
-\pgffor@stack=\toks35
-\pgffor@toks=\toks36
+\pgffor@iter=\dimen199
+\pgffor@skip=\dimen256
+\pgffor@stack=\toks36
+\pgffor@toks=\toks37
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex"
 Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
@@ -851,31 +898,31 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryplothandlers.
 code.tex"
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count122
-\pgfplotmarksize=\dimen191
+\pgf@plot@mark@count=\count125
+\pgfplotmarksize=\dimen257
 )
-\tikz@lastx=\dimen192
-\tikz@lasty=\dimen193
-\tikz@lastxsaved=\dimen194
-\tikz@lastysaved=\dimen195
-\tikzleveldistance=\dimen196
-\tikzsiblingdistance=\dimen197
-\tikz@figbox=\box62
-\tikz@figbox@bg=\box63
-\tikz@tempbox=\box64
-\tikz@tempbox@bg=\box65
-\tikztreelevel=\count123
-\tikznumberofchildren=\count124
-\tikznumberofcurrentchild=\count125
-\tikz@fig@count=\count126
+\tikz@lastx=\dimen258
+\tikz@lasty=\dimen259
+\tikz@lastxsaved=\dimen260
+\tikz@lastysaved=\dimen261
+\tikzleveldistance=\dimen262
+\tikzsiblingdistance=\dimen263
+\tikz@figbox=\box64
+\tikz@figbox@bg=\box65
+\tikz@tempbox=\box66
+\tikz@tempbox@bg=\box67
+\tikztreelevel=\count126
+\tikznumberofchildren=\count127
+\tikznumberofcurrentchild=\count128
+\tikz@fig@count=\count129
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmodulematrix.code.tex"
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count127
-\pgfmatrixcurrentcolumn=\count128
-\pgf@matrix@numberofcolumns=\count129
+\pgfmatrixcurrentrow=\count130
+\pgfmatrixcurrentcolumn=\count131
+\pgf@matrix@numberofcolumns=\count132
 )
-\tikz@expandcount=\count130
+\tikz@expandcount=\count133
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
 librarytopaths.code.tex"
@@ -891,51 +938,51 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks37
-\ex@=\dimen198
+\@emptytoks=\toks38
+\ex@=\dimen264
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen199
+\pmbraise@=\dimen265
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count131
+\inf@bad=\count134
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count132
-\leftroot@=\count133
+\uproot@=\count135
+\leftroot@=\count136
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count134
-\DOTSCASE@=\count135
+\classnum@=\count137
+\DOTSCASE@=\count138
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
-\Mathstrutbox@=\box66
-\strutbox@=\box67
-\big@size=\dimen256
+\Mathstrutbox@=\box68
+\strutbox@=\box69
+\big@size=\dimen266
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count136
-\c@MaxMatrixCols=\count137
+\macc@depth=\count139
+\c@MaxMatrixCols=\count140
 \dotsspace@=\muskip10
-\c@parentequation=\count138
-\dspbrk@lvl=\count139
-\tag@help=\toks38
-\row@=\count140
-\column@=\count141
-\maxfields@=\count142
-\andhelp@=\toks39
-\eqnshift@=\dimen257
-\alignsep@=\dimen258
-\tagshift@=\dimen259
-\tagwidth@=\dimen260
-\totwidth@=\dimen261
-\lineht@=\dimen262
-\@envbody=\toks40
+\c@parentequation=\count141
+\dspbrk@lvl=\count142
+\tag@help=\toks39
+\row@=\count143
+\column@=\count144
+\maxfields@=\count145
+\andhelp@=\toks40
+\eqnshift@=\dimen267
+\alignsep@=\dimen268
+\tagshift@=\dimen269
+\tagwidth@=\dimen270
+\totwidth@=\dimen271
+\lineht@=\dimen272
+\@envbody=\toks41
 \multlinegap=\skip73
 \multlinetaggap=\skip74
-\mathdisplay@stack=\toks41
+\mathdisplay@stack=\toks42
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
@@ -951,18 +998,12 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\enumitem\enumitem.sty"
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\enitkv@toks@=\toks43
 \labelindent=\skip75
-\enit@outerparindent=\dimen263
-\enit@toks=\toks42
-\enit@inbox=\box68
-\enitdp@description=\count143
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\varwidth.sty"
-Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box69
-\sift@deathcycles=\count144
-\@vwid@loff=\dimen264
-\@vwid@roff=\dimen265
+\enit@outerparindent=\dimen273
+\enit@toks=\toks44
+\enit@inbox=\box70
+\enitdp@description=\count146
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
 librarycalc.code.tex"
@@ -991,53 +1032,19 @@ LaTeX Font Info:    Try loading font information for T1+phv on input line 87.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1phv.fd"
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
-*geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
-*geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
-* paper: <default>
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: twoside 
-* h-part:(L,W,R)=(105.2751pt, 375.29204pt, 133.72786pt)
-* v-part:(T,H,B)=(99.58464pt, 595.8007pt, 99.58464pt)
-* \paperwidth=614.295pt
-* \paperheight=794.96999pt
-* \textwidth=375.29204pt
-* \textheight=595.8007pt
-* \oddsidemargin=33.00511pt
-* \evensidemargin=61.45787pt
-* \topmargin=-9.68535pt
-* \headheight=12.0pt
-* \headsep=25.0pt
-* \topskip=10.0pt
-* \footskip=30.0pt
-* \marginparwidth=121.0pt
-* \marginparsep=11.0pt
-* \columnsep=30.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidetrue
-* \@mparswitchtrue
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count145
-\scratchdimen=\dimen266
-\scratchbox=\box70
-\nofMPsegments=\count146
-\nofMParguments=\count147
-\everyMPshowfont=\toks43
-\MPscratchCnt=\count148
-\MPscratchDim=\dimen267
-\MPnumerator=\count149
-\makeMPintoPDFobject=\count150
-\everyMPtoPDFconversion=\toks44
+\scratchcounter=\count147
+\scratchdimen=\dimen274
+\scratchbox=\box71
+\nofMPsegments=\count148
+\nofMParguments=\count149
+\everyMPshowfont=\toks45
+\MPscratchCnt=\count150
+\MPscratchDim=\dimen275
+\MPnumerator=\count151
+\makeMPintoPDFobject=\count152
+\everyMPtoPDFconversion=\toks46
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1080,7 +1087,41 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-\AtBeginShipoutBox=\box71
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(105.2751pt, 375.29204pt, 133.72786pt)
+* v-part:(T,H,B)=(99.58464pt, 595.8007pt, 99.58464pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=375.29204pt
+* \textheight=595.8007pt
+* \oddsidemargin=33.00511pt
+* \evensidemargin=61.45787pt
+* \topmargin=-9.68535pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=121.0pt
+* \marginparsep=11.0pt
+* \columnsep=30.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\AtBeginShipoutBox=\box72
 LaTeX Info: Redefining \microtypecontext on input line 87.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
@@ -1095,7 +1136,6 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `phv' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-
 ABD: EveryShipout initializing macros
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 94.
@@ -1249,326 +1289,350 @@ esource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
 File: fondo.pdf Graphic file (type pdf)
 <use fondo.pdf>
-Package pdftex.def Info: fondo.pdf  used on input line 163. on input line 163.
+Package pdftex.def Info: fondo.pdf  used on input line 166. on input line 166.
 Package pdftex.def Info: Requested size: 614.31223pt x 794.99231pt on input lin
-e 163.
+e 166.
  [2]
 File: fondo.pdf Graphic file (type pdf)
 <use fondo.pdf>
-Package pdftex.def Info: fondo.pdf  used on input line 177. on input line 177.
+Package pdftex.def Info: fondo.pdf  used on input line 206. on input line 206.
 Package pdftex.def Info: Requested size: 614.31223pt x 794.99231pt on input lin
-e 177.
+e 206.
  [3]
-Underfull \hbox (badness 10000) in paragraph at lines 182--183
+File: fondo.pdf Graphic file (type pdf)
+<use fondo.pdf>
+Package pdftex.def Info: fondo.pdf  used on input line 247. on input line 247.
+Package pdftex.def Info: Requested size: 614.31223pt x 794.99231pt on input lin
+e 247.
+ [4]
+File: fondo.pdf Graphic file (type pdf)
+<use fondo.pdf>
+Package pdftex.def Info: fondo.pdf  used on input line 269. on input line 269.
+Package pdftex.def Info: Requested size: 614.31223pt x 794.99231pt on input lin
+e 269.
+ [5]
+Overfull \vbox (34.63167pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (34.63167pt too high) has occurred while \output is active []
+
+File: fondo.pdf Graphic file (type pdf)
+<use fondo.pdf>
+Package pdftex.def Info: fondo.pdf  used on input line 296. on input line 296.
+Package pdftex.def Info: Requested size: 614.31223pt x 794.99231pt on input lin
+e 296.
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 303--304
 \T1/phv/b/n/10 Unidades Despachadas (DHK)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--183
+Underfull \hbox (badness 10000) in paragraph at lines 303--304
 \T1/phv/m/sl/10 (+20) M Despa-chos HongKong $\OMS/cmsy/m/n/10 $ \T1/phv/m/n/10
  (+20) NO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--183
+Underfull \hbox (badness 10000) in paragraph at lines 303--304
 \T1/phv/m/n/10 (+20) HAY DEFINI-CIÓN EN SMART
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--183
+Underfull \hbox (badness 10000) in paragraph at lines 303--304
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 186--187
+Underfull \hbox (badness 10000) in paragraph at lines 307--308
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--190
+Underfull \hbox (badness 10000) in paragraph at lines 310--311
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 193--194
+Underfull \hbox (badness 10000) in paragraph at lines 314--315
 
  []
 
 File: fondo.pdf Graphic file (type pdf)
 <use fondo.pdf>
-Package pdftex.def Info: fondo.pdf  used on input line 207. on input line 207.
+Package pdftex.def Info: fondo.pdf  used on input line 328. on input line 328.
 Package pdftex.def Info: Requested size: 614.31223pt x 794.99231pt on input lin
-e 207.
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 252--253
+e 328.
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 373--374
 []\T1/phv/b/n/10 Balance \T1/phv/m/n/10 (+20) (bal-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--253
+Underfull \hbox (badness 10000) in paragraph at lines 373--374
 \T1/phv/m/n/10 (+20) or some-thing
  []
 
 
-Underfull \hbox (badness 6001) in paragraph at lines 252--253
+Underfull \hbox (badness 6001) in paragraph at lines 373--374
 \T1/phv/m/n/10 (+20) to re-main up-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--253
+Underfull \hbox (badness 10000) in paragraph at lines 373--374
 \T1/phv/m/n/10 (+20) An in-stru-ment
  []
 
 
-Underfull \hbox (badness 7151) in paragraph at lines 252--253
+Underfull \hbox (badness 7151) in paragraph at lines 373--374
 \T1/phv/m/n/10 (+20) at the cen-ter,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--253
+Underfull \hbox (badness 10000) in paragraph at lines 373--374
 \T1/phv/m/n/10 (+20) or pan, one
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--253
+Underfull \hbox (badness 10000) in paragraph at lines 373--374
 \T1/phv/m/n/10 (+20) other hold-ing
  []
 
 File: fondo.pdf Graphic file (type pdf)
 <use fondo.pdf>
-Package pdftex.def Info: fondo.pdf  used on input line 253. on input line 253.
+Package pdftex.def Info: fondo.pdf  used on input line 374. on input line 374.
 Package pdftex.def Info: Requested size: 614.31223pt x 794.99231pt on input lin
-e 253.
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 254--255
+e 374.
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 375--376
 []\T1/phv/b/n/10 Barbet \T1/phv/m/n/10 (+20) (bahr-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 254--255
+Underfull \hbox (badness 10000) in paragraph at lines 375--376
 \T1/phv/m/n/10 (+20) bit) \T1/phv/m/sl/10 (+20) Noun
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 254--255
+Underfull \hbox (badness 10000) in paragraph at lines 375--376
 \OMS/cmsy/m/n/10 $ \T1/phv/m/n/10 (+20) A large-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 254--255
+Underfull \hbox (badness 10000) in paragraph at lines 375--376
 \T1/phv/m/n/10 (+20) coloured fruit-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 254--255
+Underfull \hbox (badness 10000) in paragraph at lines 375--376
 \T1/phv/m/n/10 (+20) with tufts of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 256--257
+Underfull \hbox (badness 10000) in paragraph at lines 377--378
 \T1/phv/m/n/10 (+20) root) \T1/phv/m/sl/10 (+20) Noun $\OMS/cmsy/m/n/10 $
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 256--257
+Underfull \hbox (badness 10000) in paragraph at lines 377--378
 \T1/phv/m/n/10 (+20) red spher-i-cal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 258--259
+Underfull \hbox (badness 10000) in paragraph at lines 379--380
 []\T1/phv/b/n/10 Besides \T1/phv/m/n/10 (+20) (bih-
  []
 
 
-Underfull \hbox (badness 5077) in paragraph at lines 260--261
+Underfull \hbox (badness 5077) in paragraph at lines 381--382
 \T1/phv/m/n/10 (+20) from the hor-i-
  []
 
 
-Underfull \hbox (badness 5077) in paragraph at lines 262--263
+Underfull \hbox (badness 5077) in paragraph at lines 383--384
 \T1/phv/m/n/10 (+20) from the hor-i-
  []
 
 
-Underfull \hbox (badness 8056) in paragraph at lines 264--265
+Underfull \hbox (badness 8056) in paragraph at lines 385--386
 \T1/phv/m/sl/10 (+20) jec-tive $\OMS/cmsy/m/n/10 $ \T1/phv/m/n/10 (+20) Tak-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--267
+Underfull \hbox (badness 10000) in paragraph at lines 387--388
 []\T1/phv/b/n/10 Bioinformatics
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--267
+Underfull \hbox (badness 10000) in paragraph at lines 387--388
 \T1/phv/m/n/10 (+20) (bahy-oh-in-fer-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--267
+Underfull \hbox (badness 10000) in paragraph at lines 387--388
 \T1/phv/m/n/10 (+20) mat-iks) \T1/phv/m/sl/10 (+20) Noun
  []
 
 
-Underfull \hbox (badness 5147) in paragraph at lines 266--267
+Underfull \hbox (badness 5147) in paragraph at lines 387--388
 \T1/phv/m/n/10 (+20) bi-o-log-i-cal data
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--267
+Underfull \hbox (badness 10000) in paragraph at lines 387--388
 \T1/phv/m/n/10 (+20) ics and com-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--267
+Underfull \hbox (badness 10000) in paragraph at lines 387--388
 \T1/phv/m/n/10 (+20) puter sci-ence,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--267
+Underfull \hbox (badness 10000) in paragraph at lines 387--388
 \T1/phv/m/n/10 (+20) of genomes.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--267
+Underfull \hbox (badness 10000) in paragraph at lines 387--388
 \T1/phv/m/n/10 (+20) col-lect-ing and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--267
+Underfull \hbox (badness 10000) in paragraph at lines 387--388
 \T1/phv/m/n/10 (+20) plex bi-o-log-i-cal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 268--269
+Underfull \hbox (badness 10000) in paragraph at lines 389--390
 []\T1/phv/b/n/10 Bleep \T1/phv/m/n/10 (+20) (bleep)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 268--269
+Underfull \hbox (badness 10000) in paragraph at lines 389--390
 \T1/phv/m/n/10 (+20) high-pitched
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 272--273
+Underfull \hbox (badness 10000) in paragraph at lines 393--394
 \OMS/cmsy/m/n/10 $ \T1/phv/m/n/10 (+20) A sit-u-a-tion
  []
 
 
-Underfull \hbox (badness 5359) in paragraph at lines 274--275
+Underfull \hbox (badness 5359) in paragraph at lines 395--396
 []\T1/phv/b/n/10 Book \T1/phv/m/n/10 (+20) (boo k)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 274--275
+Underfull \hbox (badness 10000) in paragraph at lines 395--396
 \T1/phv/m/n/10 (+20) con-sist-ing of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 274--275
+Underfull \hbox (badness 10000) in paragraph at lines 395--396
 \T1/phv/m/n/10 (+20) sewn to-gether
  []
 
 
-Underfull \hbox (badness 5274) in paragraph at lines 274--275
+Underfull \hbox (badness 5274) in paragraph at lines 395--396
 \T1/phv/m/n/10 (+20) and bound in
  []
 
 File: fondo.pdf Graphic file (type pdf)
 <use fondo.pdf>
-Package pdftex.def Info: fondo.pdf  used on input line 275. on input line 275.
+Package pdftex.def Info: fondo.pdf  used on input line 396. on input line 396.
 Package pdftex.def Info: Requested size: 614.31223pt x 794.99231pt on input lin
-e 275.
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 276--277
+e 396.
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 397--398
 []\T1/phv/b/n/10 Bran \T1/phv/m/n/10 (+20) (bran)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 276--277
+Underfull \hbox (badness 10000) in paragraph at lines 397--398
 \T1/phv/m/sl/10 (+20) Noun $\OMS/cmsy/m/n/10 $ \T1/phv/m/n/10 (+20) The
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 276--277
+Underfull \hbox (badness 10000) in paragraph at lines 397--398
 \T1/phv/m/n/10 (+20) partly ground
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 278--279
+Underfull \hbox (badness 10000) in paragraph at lines 399--400
 []\T1/phv/b/n/10 Break \T1/phv/m/n/10 (+20) (breyk)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 280--281
+Underfull \hbox (badness 10000) in paragraph at lines 401--402
 []\T1/phv/b/n/10 Bridge \T1/phv/m/n/10 (+20) (brij)
  []
 
 
-Underfull \hbox (badness 8113) in paragraph at lines 280--281
+Underfull \hbox (badness 8113) in paragraph at lines 401--402
 \T1/phv/m/n/10 (+20) a river, road,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 280--281
+Underfull \hbox (badness 10000) in paragraph at lines 401--402
 \T1/phv/m/n/10 (+20) or other ob-
  []
 
 
-Underfull \hbox (badness 5832) in paragraph at lines 282--283
+Underfull \hbox (badness 5832) in paragraph at lines 403--404
 \T1/phv/m/n/10 (+20) bread typ-i-cally
  []
 
 
-Underfull \hbox (badness 8019) in paragraph at lines 284--285
+Underfull \hbox (badness 8019) in paragraph at lines 405--406
 \T1/phv/m/n/10 (+20) large hawk-like
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 286--287
+Underfull \hbox (badness 10000) in paragraph at lines 407--408
 []\T1/phv/b/n/10 Bystander
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 286--287
+Underfull \hbox (badness 10000) in paragraph at lines 407--408
 \T1/phv/m/n/10 (+20) (bahy-stan-der)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 286--287
+Underfull \hbox (badness 10000) in paragraph at lines 407--408
 \T1/phv/m/n/10 (+20) son who is
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 286--287
+Underfull \hbox (badness 10000) in paragraph at lines 407--408
 \T1/phv/m/n/10 (+20) event or in-ci-
  []
 
 File: fondo.pdf Graphic file (type pdf)
 <use fondo.pdf>
-Package pdftex.def Info: fondo.pdf  used on input line 291. on input line 291.
+Package pdftex.def Info: fondo.pdf  used on input line 412. on input line 412.
 Package pdftex.def Info: Requested size: 614.31223pt x 794.99231pt on input lin
-e 291.
-[7
+e 412.
+[10
 
 ] (dictionary.aux) ) 
 Here is how much of TeX's memory you used:
- 16633 strings out of 493312
- 308562 string characters out of 3138893
- 397652 words of memory out of 3000000
- 19715 multiletter control sequences out of 15000+200000
- 24152 words of font info for 97 fonts, out of 3000000 for 9000
+ 17298 strings out of 493312
+ 319335 string characters out of 3138893
+ 425624 words of memory out of 3000000
+ 20341 multiletter control sequences out of 15000+200000
+ 24527 words of font info for 103 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,16n,54p,414b,929s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,16n,54p,414b,964s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C
 :/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Progra
 m Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
 e1/urw/helvetic/uhvro8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palati
 no/uplr8a.pfb>
-Output written on dictionary.pdf (7 pages, 130044 bytes).
+Output written on dictionary.pdf (10 pages, 138673 bytes).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
+ 84 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  14866 words of extra memory for PDF output out of 17280 (max. 10000000)
 
